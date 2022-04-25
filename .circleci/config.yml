@@ -15,11 +15,11 @@ jobs:
       - run:
           name: Installing Backend
           command: |
-            cd reactnd-contacts-server && npm install && npm run build
+            cd /reactnd-contacts-server && npm install && npm run build
       - run:
           name: Installing Frontend
           command: |
-            cd reactnd-contacts-server && npm install && npm run build
+            cd /reactnd-contacts-server && npm install && npm run build
       - run: 
           name: Afterall
           command: echo "All-Done"
