@@ -23,7 +23,7 @@ jobs:
       - run:
           name: Building Backend
           command: |
-            cd ./reactnd-contacts-completassae && npm run
+            npm run backend:build
       - run:
           name: Building Frontend
           command: |
